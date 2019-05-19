@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A24BD847AE9ED641874EE4B4 /* Pods_Decar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86EBA5AB49CE47CB4B6436A /* Pods_Decar.framework */; };
 		F8DF4FFB228B144400D1A05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF4FFA228B144400D1A05E /* AppDelegate.swift */; };
 		F8DF4FFD228B144400D1A05E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF4FFC228B144400D1A05E /* LoginViewController.swift */; };
 		F8DF5000228B144400D1A05E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DF4FFE228B144400D1A05E /* Main.storyboard */; };
@@ -14,9 +15,17 @@
 		F8DF5005228B144C00D1A05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DF5004228B144C00D1A05E /* Assets.xcassets */; };
 		F8DF5008228B144C00D1A05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DF5006228B144C00D1A05E /* LaunchScreen.storyboard */; };
 		F8DF5011228B1C3A00D1A05E /* DecarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F8DF5010228B1C3A00D1A05E /* DecarIcon.png */; };
+		F8ED82FE2290FD7F00F1E281 /* GetCarPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED82FD2290FD7F00F1E281 /* GetCarPhotoViewController.swift */; };
+		F8ED8300229116EF00F1E281 /* CarLicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED82FF229116EF00F1E281 /* CarLicenseViewController.swift */; };
+		F8ED8302229117E900F1E281 /* GetPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED8301229117E900F1E281 /* GetPictureViewController.swift */; };
+		F8ED830422911FE300F1E281 /* SelectPreferenceClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED830322911FE300F1E281 /* SelectPreferenceClientViewController.swift */; };
+		F8ED83062291201000F1E281 /* ClientCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED83052291201000F1E281 /* ClientCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB63DD8BA1523A41866FDA45 /* Pods-Decar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Decar.release.xcconfig"; path = "Target Support Files/Pods-Decar/Pods-Decar.release.xcconfig"; sourceTree = "<group>"; };
+		C86EBA5AB49CE47CB4B6436A /* Pods_Decar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Decar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CC59E97ED38889AD5D58E4 /* Pods-Decar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Decar.debug.xcconfig"; path = "Target Support Files/Pods-Decar/Pods-Decar.debug.xcconfig"; sourceTree = "<group>"; };
 		F8DF4FF7228B144400D1A05E /* Decar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DF4FFA228B144400D1A05E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8DF4FFC228B144400D1A05E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +35,11 @@
 		F8DF5007228B144C00D1A05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8DF5009228B144C00D1A05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8DF5010228B1C3A00D1A05E /* DecarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DecarIcon.png; sourceTree = "<group>"; };
+		F8ED82FD2290FD7F00F1E281 /* GetCarPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCarPhotoViewController.swift; sourceTree = "<group>"; };
+		F8ED82FF229116EF00F1E281 /* CarLicenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarLicenseViewController.swift; sourceTree = "<group>"; };
+		F8ED8301229117E900F1E281 /* GetPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPictureViewController.swift; sourceTree = "<group>"; };
+		F8ED830322911FE300F1E281 /* SelectPreferenceClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPreferenceClientViewController.swift; sourceTree = "<group>"; };
+		F8ED83052291201000F1E281 /* ClientCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24BD847AE9ED641874EE4B4 /* Pods_Decar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BFFAA9CA87A09B8EF271C42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3CC59E97ED38889AD5D58E4 /* Pods-Decar.debug.xcconfig */,
+				AB63DD8BA1523A41866FDA45 /* Pods-Decar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		76F9DF2BC9470F6E1B81D2D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C86EBA5AB49CE47CB4B6436A /* Pods_Decar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F8DF4FEE228B144300D1A05E = {
 			isa = PBXGroup;
 			children = (
 				F8DF4FF9228B144400D1A05E /* Decar */,
 				F8DF4FF8228B144400D1A05E /* Products */,
+				2BFFAA9CA87A09B8EF271C42 /* Pods */,
+				76F9DF2BC9470F6E1B81D2D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +100,11 @@
 				F8DF5006228B144C00D1A05E /* LaunchScreen.storyboard */,
 				F8DF5009228B144C00D1A05E /* Info.plist */,
 				F8DF5001228B144400D1A05E /* Decar.xcdatamodeld */,
+				F8ED82FD2290FD7F00F1E281 /* GetCarPhotoViewController.swift */,
+				F8ED82FF229116EF00F1E281 /* CarLicenseViewController.swift */,
+				F8ED8301229117E900F1E281 /* GetPictureViewController.swift */,
+				F8ED830322911FE300F1E281 /* SelectPreferenceClientViewController.swift */,
+				F8ED83052291201000F1E281 /* ClientCollectionViewCell.swift */,
 			);
 			path = Decar;
 			sourceTree = "<group>";
@@ -85,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8DF500C228B144C00D1A05E /* Build configuration list for PBXNativeTarget "Decar" */;
 			buildPhases = (
+				3F0D421EDC7B99FC1A7D2FC8 /* [CP] Check Pods Manifest.lock */,
 				F8DF4FF3228B144400D1A05E /* Sources */,
 				F8DF4FF4228B144400D1A05E /* Frameworks */,
 				F8DF4FF5228B144400D1A05E /* Resources */,
+				64CA5DDFC7FD65DEE2A65305 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,14 +186,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F0D421EDC7B99FC1A7D2FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Decar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64CA5DDFC7FD65DEE2A65305 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Decar/Pods-Decar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Decar/Pods-Decar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F8DF4FF3228B144400D1A05E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F8DF5003228B144400D1A05E /* Decar.xcdatamodeld in Sources */,
+				F8ED82FE2290FD7F00F1E281 /* GetCarPhotoViewController.swift in Sources */,
+				F8ED8302229117E900F1E281 /* GetPictureViewController.swift in Sources */,
+				F8ED8300229116EF00F1E281 /* CarLicenseViewController.swift in Sources */,
+				F8ED830422911FE300F1E281 /* SelectPreferenceClientViewController.swift in Sources */,
 				F8DF4FFD228B144400D1A05E /* LoginViewController.swift in Sources */,
 				F8DF4FFB228B144400D1A05E /* AppDelegate.swift in Sources */,
+				F8ED83062291201000F1E281 /* ClientCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +393,7 @@
 		};
 		F8DF500D228B144C00D1A05E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CC59E97ED38889AD5D58E4 /* Pods-Decar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,6 +412,7 @@
 		};
 		F8DF500E228B144C00D1A05E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB63DD8BA1523A41866FDA45 /* Pods-Decar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
